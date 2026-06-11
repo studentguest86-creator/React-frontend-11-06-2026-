@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import SliderOneImg from '../assets/logo/banner-1.jpg';
 import SliderTwoImg from '../assets/logo/banner-1.jpg';
+import ProductImg from '../assets/Mens/eight.jpg';
 
 
 const Home = () => {
@@ -76,7 +77,7 @@ const Home = () => {
             <div className="col-md-3">
               <div className="product card border-0">
                 <div className="card-img">
-                  
+                  <img src={ProductImg} alt="" className='w-100' />
                 </div>
               </div>
             </div>
