@@ -131,11 +131,80 @@ header{
 
 .product{
     .card-img{
+        overflow: hidden;
+        border-radius: 10px;
         img{
             border-radius: 10px;
+            transition: all 0.3s ease-out;
+        }
+    }
+    &:hover{
+        img{
+            scale: 1.2;
+        }
+    }
+
+    .card-body{
+        padding: 0;
+        a{
+            font-size: 1.2em;
+        }
+        .price{
+            font-size: 1.2em;
+            span{
+                color: rgba($primary-black, 0.5)
+            }
         }
     }
 }
+
+footer{
+    background-color: $tertiary-color;
+
+    ul{
+        li{
+            margin-bottom: 10px;
+
+            a{
+                font-size: 1.2em;
+                color: $primary-white
+            }
+        }
+    }
+    .spotlight{
+        border-top: 1px solid rgba($primary-white, 0.2);
+        border-bottom: 1px solid rgba($primary-white, 0.2);
+    }
+
+}
+
+
+@media (min-width: 200px) and (max-width:760px) {
+    .section-1 {
+        .swiper-wrapper{
+            .swiper-slide{
+                height: 750px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
