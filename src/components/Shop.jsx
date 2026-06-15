@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from './common/Layout'
 import Hero from './common/Hero'
 import ProductImg from '../assets/Mens/eight.jpg';
+import { Link } from 'react-router-dom';
 
 
 const Shop = () => {
@@ -10,8 +11,8 @@ const Shop = () => {
       <div className="container mt-4">
         <nav aria-label='breadcrumb'>
           <ol className='breadcrumb'>
-            <li className='breadcrumb-item'><a href="#">Home</a></li>
-            <li className='breadcrumb-item active' aria-current="page"><a href="#">Shop</a></li>
+            <li className='breadcrumb-item'><Link to="/">Home</Link></li>
+            <li className='breadcrumb-item active' aria-current="page"><Link to="/product">Product</Link></li>
           </ol>
         </nav>
 
@@ -69,7 +70,7 @@ const Shop = () => {
                     <img src={ProductImg} alt="" className='w-100' />
                 </div>
                 <div className="card-body pt-3">
-                    <a href="">Red check shirt for Men</a>
+                    <a href="/product">Red check shirt for Men</a>
                     <div className="price">
                     $50 <span className='text-decoration-line-through'>$80</span>
                     </div>
@@ -82,7 +83,7 @@ const Shop = () => {
                       <img src={ProductImg} alt="" className='w-100' />
                   </div>
                   <div className="card-body pt-3">
-                      <a href="">Red check shirt for Men</a>
+                      <a href="/product">Red check shirt for Men</a>
                       <div className="price">
                       $50 <span className='text-decoration-line-through'>$80</span>
                       </div>
@@ -95,7 +96,7 @@ const Shop = () => {
                       <img src={ProductImg} alt="" className='w-100' />
                   </div>
                   <div className="card-body pt-3">
-                      <a href="">Red check shirt for Men</a>
+                      <a href="/product">Red check shirt for Men</a>
                       <div className="price">
                       $50 <span className='text-decoration-line-through'>$80</span>
                       </div>
@@ -108,7 +109,7 @@ const Shop = () => {
                       <img src={ProductImg} alt="" className='w-100' />
                   </div>
                   <div className="card-body pt-3">
-                      <a href="">Red check shirt for Men</a>
+                      <a href="/product">Red check shirt for Men</a>
                       <div className="price">
                       $50 <span className='text-decoration-line-through'>$80</span>
                       </div>
@@ -121,7 +122,7 @@ const Shop = () => {
                       <img src={ProductImg} alt="" className='w-100' />
                   </div>
                   <div className="card-body pt-3">
-                      <a href="">Red check shirt for Men</a>
+                      <a href="/product">Red check shirt for Men</a>
                       <div className="price">
                       $50 <span className='text-decoration-line-through'>$80</span>
                       </div>
@@ -134,7 +135,7 @@ const Shop = () => {
                       <img src={ProductImg} alt="" className='w-100' />
                   </div>
                   <div className="card-body pt-3">
-                      <a href="">Red check shirt for Men</a>
+                      <a href="/product">Red check shirt for Men</a>
                       <div className="price">
                       $50 <span className='text-decoration-line-through'>$80</span>
                       </div>
