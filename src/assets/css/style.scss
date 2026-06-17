@@ -181,6 +181,27 @@ footer{
 
 }
 
+.product-detail{
+    .mySwiper{
+        .swiper-slide{
+            height: auto !important;
+        }
+    }
+
+    .price{
+        font-weight: bold;
+        span{
+            color: rgba($color: $primary-black, $alpha: 0.50);
+        }
+    }
+}
+
+.nav-tabs{
+    .nav-link{
+        color: $primary-black;
+    }
+}
+
 
 @media (min-width: 200px) and (max-width:760px) {
     .section-1 {

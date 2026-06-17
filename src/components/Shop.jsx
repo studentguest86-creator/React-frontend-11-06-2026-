@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from './common/Layout'
-import Hero from './common/Hero'
 import ProductImg from '../assets/Mens/eight.jpg';
 import { Link } from 'react-router-dom';
 
