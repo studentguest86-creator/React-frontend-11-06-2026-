@@ -1,6 +1,5 @@
-import React from 'react'
-import Layout from './common/Layout'
-import ProductImg from '../assets/Mens/eight.jpg';
+import Layout from './Layout'
+import ProductImg from '../../assets/Mens/eight.jpg';
 import { Link } from 'react-router-dom';
 
 

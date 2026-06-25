@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Layout from './common/Layout'
+// import Layout from './common/Layout'
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Thumbs, FreeMode, Navigation  } from 'swiper/modules';
@@ -7,12 +7,13 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
-import ProductImgOne from '../assets/Mens/five.jpg';
-import ProductImgTwo from '../assets/Mens/six.jpg';
-import ProductImgThree from '../assets/Mens/three.jpg';
+import ProductImgOne from '../../assets/Mens/five.jpg';
+import ProductImgTwo from '../../assets/Mens/six.jpg';
+import ProductImgThree from '../../assets/Mens/three.jpg';
 import { Rating } from 'react-simple-star-rating'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import Layout from './Layout';
 
 
 const Product = () => {
